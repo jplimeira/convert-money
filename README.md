@@ -2,6 +2,8 @@
 
 Aplicação web para conversão de moedas, permitindo converter valores em Real (BRL) para diferentes moedas internacionais.
 
+🔗 Acesse o projeto: https://jplimeira.github.io/convert-money/
+
 <img width="1084" height="904" alt="image" src="https://github.com/user-attachments/assets/64f4ebb4-8603-417b-a3a0-cd1cd458d904" />
 
 ---
