@@ -107,8 +107,14 @@ section {
     color: #777777;
 }
 
-.currency-value {
+.currency-value,
+.currency-value-to-convert {
     font-weight: 700;
     font-size: 18px;
     color: #555555;
+}
+
+#logo-value-to-convert {
+    width: 51.99px;
+    height: 51.99px;
 }
