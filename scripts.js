@@ -9,7 +9,6 @@ function convertValues() {
     )
 
     if (isNaN(inputCurrencyValue)) {
-        alert("Digite um valor válido!")
         return
     }
 
@@ -144,6 +143,18 @@ function changeFromCurrency() {
 
 currencyFrom.addEventListener("change", changeFromCurrency)
 currencyTo.addEventListener("change", changeCurrency)
-convertButton.addEventListener("click", convertValues)
+convertButton.addEventListener("click", () => {
+
+    const inputValue = parseFloat(
+        document.querySelector(".input-currency").value
+    )
+
+    if (isNaN(inputValue)) {
+        alert("Digite um valor válido!")
+        return
+    }
+
+    convertValues()
+})
 changeCurrency()
 changeFromCurrency()
