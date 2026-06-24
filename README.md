@@ -1,21 +1,26 @@
 # 💱 Convert Money | Conversor de Moedas
 
-Aplicação web para conversão de moedas, permitindo converter valores em Real (BRL) para diferentes moedas internacionais.
+Aplicação web para conversão de moedas, permitindo converter valores entre diferentes moedas internacionais de forma rápida e intuitiva.
 
-🔗 Acesse o projeto: https://jplimeira.github.io/convert-money/
+🔗 **Acesse o projeto:** https://jplimeira.github.io/convert-money/
 
 <img width="1084" height="904" alt="image" src="https://github.com/user-attachments/assets/64f4ebb4-8603-417b-a3a0-cd1cd458d904" />
+## 📸 Demonstração
+
+O usuário pode selecionar uma moeda de origem e uma moeda de destino para realizar conversões entre Real, Dólar, Euro, Libra Esterlina e Bitcoin.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Conversão de **Real (BRL)** para:
+- Conversão entre:
   - 💵 Dólar (USD)
   - 💶 Euro (EUR)
-  - 💷 Libra (GBP)
+  - 💷 Libra Esterlina (GBP)
+  - 💰 Real (BRL)
   - ₿ Bitcoin (BTC)
-- Atualização dinâmica da moeda selecionada
+- Seleção da moeda de origem e destino
+- Atualização dinâmica de nomes e ícones das moedas
 - Exibição formatada dos valores convertidos
 - Interface intuitiva e de fácil utilização
 - Favicon personalizado
@@ -24,9 +29,24 @@ Aplicação web para conversão de moedas, permitindo converter valores em Real 
 
 ## 🖥️ Tecnologias utilizadas
 
-- HTML5 (estrutura)
-- CSS3 (estilização e layout)
-- JavaScript (lógica e interatividade)
+- HTML5 — Estrutura da aplicação
+- CSS3 — Estilização e responsividade
+- JavaScript — Lógica de conversão e manipulação do DOM
+
+---
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos de:
+
+- Manipulação do DOM
+- Eventos com JavaScript
+- Estruturas condicionais
+- Objetos e armazenamento de dados
+- Formatação de moedas com Intl.NumberFormat
+- Organização de código em funções
+- Publicação de projetos com GitHub Pages
+- Controle de versão com Git e GitHub
 
 ---
 
@@ -80,10 +100,11 @@ index.html
 ## 🔮 Melhorias futuras
 
 - Integração com API de cotação em tempo real
-- Responsividade para dispositivos móveis
-- Melhorias de UX/UI
-- Suporte à conversão entre diferentes moedas internacionais (ex: USD → EUR, EUR → GBP, etc.)
-
+- Histórico de conversões
+- Tema escuro (Dark Mode)
+- Conversão automática ao digitar valores
+- Suporte a mais moedas internacionais
+  
 ---
 
 ## 👨‍💻 Autor
@@ -94,5 +115,5 @@ Desenvolvido por Jayro Pereira 🚀
 
 ## 📌 Status do projeto
 
-✅ Concluído (versão inicial)  
-🚧 Em desenvolvimento
+✅ Funcional e publicado
+🚧 Novas funcionalidades em desenvolvimento
